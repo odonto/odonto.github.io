@@ -1,1 +1,1 @@
-# odonto.github.io
+wget -r -k openodonto.org

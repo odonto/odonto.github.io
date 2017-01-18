@@ -1,0 +1,729 @@
+/* Ripple Stylesheet
+	Includes all brand-specific styles i.e. colours, images fonts for Ripple
+*/
+
+/* General */
+
+*, body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tdimage{
+    vertical-align:middle;
+    padding:20px;}
+    
+#tdtext{
+    vertical-align:top;
+    padding: 2px 10px;}
+
+#tdtitle{
+    color: #005896;;
+    text-transform:uppercase;
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+#tdHeader{
+    font-size:18px;
+    padding: 10px;
+}
+
+#directorImg
+{
+    width:150px;
+    height:150px;
+}
+
+#intro h1,
+#heading h1,
+#heading .title,
+#blog-headline h2 a,
+.navbar-default .navbar-brand,
+.single article header h1,
+.posts .post h3 a,
+#resource-listings h2 { 
+	font-family: 'Oswald', sans-serif;
+}
+
+#footer-credits div {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	color: #005896;
+	font-weight: 400;
+}
+
+	a:hover,
+	a:focus {
+		color: #003e79;
+	}
+
+.current-menu-item,
+.current-menu-item a {
+	font-weight: 600 !important;
+}
+
+	/* Buttons */
+	
+	.btn {
+		border-radius: 0;
+	}
+
+	.btn-nav {
+		border-color: #005896;
+		color: #005896;
+		text-transform: uppercase;
+		background-color: transparent;
+	}
+	
+		.btn-nav:hover {
+			color: #fff;
+			background-color: #005896;
+		}
+		
+	.btn-action {
+		background-color: #005896;
+		border-color: #005896;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	
+		.btn-action:hover {
+			background-color: transparent;
+			color: #005896;
+		}
+
+section h2.section-title {
+/* 	color: #005896; */
+	color: #959595;
+	background: url('http://openodonto.org/_asset/apperta.css/images/section-divider.png') center center repeat-x;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+	
+	section h2.section-title span {
+		background: #fff;
+		padding: 0 15px;
+	}
+	
+section, article {
+	padding-top: 60px;
+}
+
+.social-nav a {
+	color: #b5b5b5;
+}
+	
+		
+
+/* Nav Bar Mobile */
+	
+	#header .navbar-header {
+		background: #005896;
+		border-bottom: 1px solid #fff;
+	}
+	
+		.navbar-default .navbar-toggle:focus, 
+		.navbar-default .navbar-toggle:hover,
+		#header .navbar-toggle:hover {
+			background-color: #ef7a12;
+		}
+		
+	#header .navbar {
+		margin-bottom: 0;
+	}
+	
+		#header .navbar-nav li a:hover {
+			background: #e4e4e4;
+			color: inherit;
+		}
+
+
+/* Header */
+
+#header .top-mast {
+	border-bottom: 3px solid #e5e5e5;
+}
+
+	#header .logo {
+		max-height: 114px;
+	}
+
+	body.home #header {
+		background: none;
+	}
+	
+	#header .primary-nav a:hover {
+		color: #003e79;
+	}
+	
+	#header .primary-nav > ul > li {
+		font-size: 18px;
+		font-weight: 400;
+	}
+	
+	#header .primary-nav .sub-menu {
+		background-color: transparent;
+		padding-top: 22px;
+	}
+	
+		#header .primary-nav .sub-menu li {
+			background-color: #f2f6fa;
+		}
+		
+			#header .primary-nav .sub-menu li:last-child {
+				border-bottom: 3px solid #005896;
+			}
+		
+		#header .primary-nav .sub-menu li > a:after {
+			color: #005896;
+		}
+		
+		#header .primary-nav .sub-menu li a {
+			font-size: 16px;
+			font-weight: 600;
+		}
+		
+		#header .primary-nav .sub-menu li > a:after {
+			font-family: FontAwesome;
+			content: "\f0da"; /* icon-caret-right */
+		}
+	
+	#header .searchform button {
+		background-color: #ef7a12;
+		color: #fff;
+	}
+	
+
+/* Intro */
+
+#intro {
+	background: url('http://openodonto.org/_asset/apperta.css/images/home-bg.png') center bottom no-repeat;
+	background-size: cover !important;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	border-bottom: none;
+}
+
+#intro h1 {
+	color: #49866F;
+	font-weight: 300;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+	background-color: rgba(255, 255, 255, 0.62);
+}
+
+#intro p {
+	font-size: 21px;
+	margin-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.62);
+}
+
+
+/* Heading */
+
+#heading {
+	background: url('http://openodonto.org/_asset/apperta.css/images/header-about.png') top center no-repeat;
+	background-size: cover;
+}
+
+	body.blog #heading {
+		background: url('http://openodonto.org/_asset/apperta.css/images/header-blog.png') top center no-repeat;
+		background-size: cover;
+	}
+	
+	body.resources #heading {
+		background: url('http://openodonto.org/_asset/apperta.css/images/header-resources.png') top center no-repeat;
+		background-size: cover;
+	}
+	
+	body.contact #heading {
+		background: url('http://openodonto.org/_asset/apperta.css/images/header-contact.png') top center no-repeat;
+		background-size: cover;
+	}
+
+	#heading h1,
+	#heading .title {
+		font-size: 46px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 400;
+	}
+
+
+/* Offers */
+
+#offers,
+#offers .section-title span {
+	background-color: #f4f4f4;
+}
+
+#offer header {
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#offers .icon img {
+	max-width: 120px;
+}
+
+	/* Odd */
+	#offers .offer .inner {
+		background-color: #fff;
+	}
+	
+		#offers .offer h3 a {
+			color: #00adc6;
+		}
+		
+			#offers .offer h3 a:hover {
+				color: #0090A8;
+			}
+		
+		#offers .offer .btn {
+			border-color: #00adc6;
+			color: #00adc6;
+		}
+		
+			#offers .offer .btn:hover {
+				background-color: #00adc6;
+				color: #fff;
+			}
+			
+	#offer .documentation .item .inner {
+		border-bottom: 1px solid #d5d5d5;
+	}
+		
+	/* Even */
+	#offers .offer:nth-child(2n) .inner {
+		
+	}
+	
+		#offers .offer:nth-child(2n) h3 a {
+			color: #005896;
+		}
+		
+			#offers .offer:nth-child(2n) h3 a:hover {
+				color: #003e79;
+			}
+		
+		#offers .offer:nth-child(2n) .btn {
+			border-color: #003e79;
+			color: #003e79;
+		}
+		
+			#offers .offer:nth-child(2n) .btn:hover {
+				background-color: #003e79;
+				color: #fff;
+			}
+		
+		
+		
+/* Blog Headline */
+
+#blog-headline {
+	background: url('http://openodonto.org/_asset/apperta.css/images/blog-bg.png') no-repeat;
+	background-size: cover;
+	color: #fff;
+}		
+		
+	#blog-headline .inner {
+		min-height: 213px;
+		position: relative;
+	}
+	
+	#blog-headline h2 {
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	
+	#blog-headline .image img {
+		margin-top: 45px;
+		border: 1px solid #fff;
+	}
+	
+	#blog-headline a,
+	#blog-headline .meta {
+		color: #fff;
+		font-weight: 300;
+	}
+	
+		#blog-headline a:hover {
+
+		}
+	
+	#blog-headline .forward {
+	    font-size: 11px;
+	    padding: 5px 10px;
+	    border-radius: 4px;
+	    margin-left: 20px;
+	    margin-top: 50px;
+	    background-color: #fff;
+	    color: #df6d05;
+	}
+	
+		#blog-headline .forward i {
+			margin-left: 0;
+		}
+	
+		
+		
+/* Developer */
+
+#developer .developer-icon {
+	color: #ef7a12
+}
+		
+
+
+/* Resources */
+
+#resources {
+	background-color: transparent;
+}
+
+	#resources h3.section-title {
+		color: #959595;
+		border-bottom: 1px solid #959595;
+		padding-bottom: 10px;
+	}
+	
+	#resources .view-all {
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 2em;
+	}
+
+	#resources .listings a,
+	#resources a.forward,
+	#resources a.forward i {
+		color: #005896;
+	}
+	
+		#resources a {
+			font-weight: 400;
+		}
+	
+		#resources a:hover {
+			color: #003e79;
+		}
+		
+		#share i {
+			color: #003e79;
+		}
+		
+		#resources i {
+			color: #54606c;
+		}
+	
+	#resources .item {
+		border-bottom: 1px solid #d2d2d2;
+	}
+
+#resources.resources-detail {
+	background-color: transparent;
+}
+	
+	#resources.resources-detail .column {
+		border-top: 4px solid #00adc6;
+		padding-top: 30px;
+	}
+	
+		#resources.resources-detail .heading {
+			color: #3c3c3b;
+		}
+	
+		#resources.resources-detail h2 {
+			font-size: 24px;
+			font-weight: 600;
+		}
+	
+		#resources.resources-detail .icon img {
+			max-width: 120px;
+		}
+		
+		#resources.resources-detail .section-heading {
+			font-weight: bold;
+		}
+		
+		#resources.resources-detail .title a {
+			font-size: 15px;
+		}
+		
+	#resources .forward {
+		text-transform: uppercase;
+	}
+	
+#share .box {
+	background-color: #eef6f6;
+}
+
+	/*
+	#share h2 {
+		color: #434f5a;
+	}
+	*/
+	
+	#share .btn {
+		color: #00adc6;
+		border-color: #00adc6;
+	}
+	
+		#share .btn:hover {
+			color: #fff;
+			background-color: #00adc6;
+		}
+		
+		
+/* Tweet */
+
+#tweet {
+	background-color: #ebebeb;
+}
+
+	#tweet a {
+		color: #005896;
+	}
+	
+		#tweet .username a {
+			color: #3c3c3b;
+		}
+	
+		#tweet a:hover {
+			color: #003e79;
+		}
+		
+		#tweet a.btn:hover {
+			color: #fff;
+		}
+		
+	#tweet .tweet a {
+		font-weight: 400;
+	}
+	
+	
+	
+
+
+/* Footer */
+
+#footer-links {
+	background: #4c4c4c;
+}
+
+	#footer-links h3 {
+		color: #a0a0a0;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	
+	#footer-links li:before {
+		content: none;
+		margin: 0;
+	}
+	
+	#footer-links .connect li i {
+		color: #a0a0a0;
+	}
+	
+#footer-credits {
+	background-color: #3c3c3b;
+	font-weight: 400;
+	font-size: 12px;
+	color: #dadada;
+}
+
+
+/* Single / Article */
+
+article {
+	color: #434f5a;
+}
+
+	.single article header h1 {
+		font-weight: 300;
+	}
+	
+	article .meta a,
+	article .meta i,
+	.posts .meta a,
+	.posts .meta i {
+		color: #878786
+	}
+
+aside.sidebar section a {
+	font-weight: 400;
+	color: #4c4c4c;
+}
+
+	aside.sidebar section a:hover {
+
+	}
+
+	aside.sidebar li i {
+		color: #878786;
+	}
+	
+	aside section h3,
+	.section-heading {
+		background-color: #f3f4f5
+	}
+	
+	aside.sidebar li span.count {
+		color: #a7acb0;
+	}
+	
+	aside section .type {
+		color: #898989;
+	}
+	
+	aside section .post a {
+		color: #434f5a;
+		font-weight: 400;
+	}
+	
+	.single .form {
+		background-color: #f3f4f5;
+	}
+	
+		.single .form h3,
+		.single .form p {
+			color: #54606c;
+		}
+		
+			.single .form p {
+				font-size: 18px;
+				font-weight: 300;
+				margin-bottom: 15px;
+			}
+	
+	
+/* Entry Content */
+
+	.entry-content p {
+		font-size: 17px;
+	}
+	
+		.entry-content p.lead {
+			font-size: 22px;
+			color: #3c3c3b;
+		}
+	
+	.entry-content h2,
+	.entry-content h3 {
+		color: #00adc6;
+		font-weight: 400;
+	}
+	
+	.entry-content h3 {
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	
+	.entry-content ul li {
+		font-size: 16px;
+		position: relative;
+	}
+	
+		.entry-content ul li:before {
+			content: "-";
+			position: absolute;
+			left: -20px;
+			margin: 0;
+			color: #00adc6;
+			font-size: 14px;
+		}
+		
+	.entry-content blockquote {
+		border: none;
+		background-color: #ebf9fb;
+		padding: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	
+/* Contact */
+	
+	#contact .entry-content h2 {
+		color: #3c3c3b;
+	}
+	
+	
+
+/* Posts */
+
+.posts h2 {
+	background-color: #f3f4f5
+}
+
+	.posts .post {
+		background: none;
+		margin-bottom: 50px;
+		margin-top: 40px;
+	}
+
+	.posts .post h3 a {
+		font-weight: 300;
+	}
+	
+		#resource-listings .post h3 a {
+			font-weight: 400;
+		}
+
+	.posts .post .forward a {
+		color: #fff;
+	}
+	
+	.posts .post .forward {
+		background-color: #878786;
+		color: #fff;
+	}
+	
+	.posts .post img {
+		border-radius: 0;
+	}
+	
+	
+/* Offer */
+
+#offer .excerpt {
+	color: #6e7b87;
+}
+
+
+/* Resource Listings */
+
+#resource-listings .resource-nav a.btn-nav img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#resource-listings .resource-nav a.btn-nav {
+	border-color: #b1b1b1;
+	color: #b1b1b1;
+}
+
+	#resource-listings .resource-nav a.btn-nav:hover,
+	#resource-listings .resource-nav .current-menu-item a.btn-nav {
+		border-color: #005896;
+		color: #005896;
+		background: transparent;
+	}
+		#resource-listings .resource-nav a.btn-nav:hover img,
+	#resource-listings .resource-nav .current-menu-item a.btn-nav img {
+			-webkit-filter: none;
+			filter: none;
+		}
+	
+	#resource-listings .resource-nav a.btn-nav:hover,
+	#resource-listings .resource-nav .current-menu-item a.btn-nav {
+		font-weight: 400 !important;
+		
+	}
+	
+	#resource-listings .resource-nav .current-menu-item a.btn-nav:hover {
+		background-color: transparent;
+	}
+	
