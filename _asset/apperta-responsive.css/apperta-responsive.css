@@ -1,0 +1,97 @@
+/* Responsive Ripple
+	Specific styles by media type specific to the Ripple brand i.e. colours, images, fonts */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	#share .icon img {
+		max-width: 65px;
+	}
+	
+	#blog-headline h2 {
+		font-size: 34px;
+	}
+	
+	#heading {
+		border-bottom: none;
+	}
+	
+	#tweet .status {
+		border-left: 1px solid #959595;
+	}
+	
+	.single article .inner, .posts > .inner, 	#contact .inner {
+		border-right: 1px solid #d5d5d5;
+	}
+	
+	#offer .inner-top {
+		border-left: 1px solid #d5d5d5;
+	}
+	
+	.entry-content p.lead {
+		font-size: 29px;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	#header .primary-nav {
+		margin-top: 55px;
+	}
+	
+		#header .primary-nav ul {
+			margin-bottom: 0;
+		}
+	
+	#share .icon {
+		background-size: 90px;
+	}
+	
+	#share .icon img {
+		max-width: 90px;
+	}
+	
+	#intro h1,
+	#intro p {
+		background: none;
+	}
+	
+	.entry-content blockquote {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
+	#resources.resources-detail .inner {
+		background: url('http://openodonto.org/_asset/apperta-responsive.css/images/solid-bg.png') center center repeat-y;
+	}
+	
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	#header .primary-nav {
+		margin-top: 65px;
+	}
+	
+	#share .icon {
+		background-size: auto;
+	}
+	
+	#share .icon img {
+		max-width: 120px;
+	}
+	
+	#sponsors .inner {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+	.single article footer aside section .post .inner {
+		border-right: 1px solid #d5d5d5;
+	}
+	
+}
