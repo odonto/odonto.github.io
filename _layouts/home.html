@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="intro">
+      <div class="container inner">
+        <div class="row text-row">
+          <div class="featured-image col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-1 xs-center sm-left">
+	    <h1>OpenOdonto an electronic patient record for Special Care Dentistry</h1>
+	    <p>OpenOdonto is an electronic patient record application for Special Care Dentistry, which enables clinicians to access information they need about their patients in one place.</p>
+
+	    <a href="who-we-are" class="btn btn-action btn-lg">Find Out More</a>
+
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+
+
+
+        <div class="home">
+
+          <h1 class="page-heading">Posts</h1>
+
+          {{ content }}
+
+          <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+              <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+        </div>
+
+
+
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
