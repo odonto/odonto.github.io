@@ -1,0 +1,621 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-GB">
+  
+<!-- Apperta - Head -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Who We Are</title>
+    
+    <!-- Third Part Components -->
+    <link href="_asset/bootstrap.min_2.css/bootstrap.min.css" rel="stylesheet">
+    <link href="who-we-are" rel="stylesheet">
+    
+    
+    <link rel="icon" type="image/png" href="_asset/OOfavicon.png/OOfavicon.png">
+    
+    <link href="who-we-are" rel="apple-touch-icon" />
+    <link href="who-we-are" rel="apple-touch-icon" sizes="76x76" />
+    <link href="who-we-are" rel="apple-touch-icon" sizes="120x120" />
+    <link href="who-we-are" rel="apple-touch-icon" sizes="152x152" />
+    <link href="who-we-are" rel="apple-touch-icon" sizes="180x180" />
+    <link href="who-we-are" rel="icon" sizes="192x192" />
+    <link href="who-we-are" rel="icon" sizes="128x128" />
+    
+    <link href="_asset/font-awesome.min.css/font-awesome.min.css" rel="stylesheet">
+    <link href="_asset/foundation-icons.css/foundation-icons.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato:Regular,300,700,900,300italic,700italic,900italic" rel="stylesheet">
+    
+    
+    <!-- Theme Styles -->
+    <link href="_asset/styles.css/styles.css" rel="stylesheet">
+    <link href="_asset/responsive.css/responsive.css" rel="stylesheet">
+    <link href="_asset/apperta.css/apperta.css" rel="stylesheet">
+    <link href="_asset/apperta-responsive.css/apperta-responsive.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+<!-- Apperta - Style Overrides -->
+<style type="text/css">
+    *, body {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    
+    #heading .title {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    a {
+        color: #005896;
+    }
+    
+    a:hover {
+        color: #003e79;
+    }
+    
+    .search-item {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #fff;
+    }
+    
+    #blog-headline, #heading, body.blog #heading, body.resources #heading, body.contact #heading {
+        
+            
+                background: url('_asset/about-bg-odonto.png/about-bg-odonto.png') no-repeat;
+            
+        
+        
+        
+    }
+
+    /*#intro { background: url('') no-repeat; }*/
+    
+    section h2.section-title {
+        background: url('_asset/section-divider.png/section-divider.png') center center repeat-x;
+    }
+    
+    .entry-content blockquote {
+        background-color: #ebf9fb;
+    }
+    
+    #tweet {
+        background-color: #ebebeb;
+    }
+    
+    #footer-links {
+        background: #89BDDE;
+    }
+    
+    #footer-links h3 {
+        color: #1C7EBE;
+    }
+    
+    #footer-links li a {
+        color: #fff;
+    }
+    
+    #footer-links a:hover {
+        color: #fff;
+    }
+    
+    #footer-links .connect li i {
+        color: #1C7EBE;
+    }
+    
+    button, #header .searchform button {
+        background-color: #ef7a12 !important;
+    }
+    
+    #tweecool ul > li > a {
+        width: 16.66666667%;
+        float: left;
+        padding-right: 15px;
+        /*padding-left: 15px;*/
+    }
+    
+    #tweecool ul > li .tweets_txt {
+        width: 83.33333333%;
+    }
+    
+    #tweecool ul > li { margin-bottom: 20px; display: block; }
+    #tweecool ul > li:before {
+        display: table;
+        content: " ";
+    }
+    #tweecool ul > li:after { clear: both; }
+    
+    @media (min-width: 768px) {
+        #tweecool ul > li > a {
+            width: 8.33333333%;
+            padding-left: 0;
+        }
+        #tweecool ul > li > .tweets_txt { width: 91.66666667%; }
+    }
+    
+    /*@media (max-width: 767px) {
+        #tweecool ul > li > a { display: none !important; }
+    }*/
+    
+    #tweecool ul > li span {
+        display: block;
+        color: #a0a0a0;
+        font-style: italic;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    /*#tweecool ul > li { display: none !important; }
+    #tweecool ul > li:first-child { display: block !important; }*/
+    #tweecool ul { list-style-type: none; }
+    #tweecool ul > li.not-first { display: none; }
+    
+    #footer-credits {
+        background-color: #1C7EBE;
+        color: #dadada;
+    }
+    
+    #header .primary-nav .sub-menu li:last-child {
+        border-bottom: 3px solid #005896;
+    }
+    
+    #header .primary-nav .sub-menu li {
+        background-color: #f2f6fa;
+    }
+    
+    
+    #comments {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: #f3f4f5;
+        padding: 10px 20px;
+    }
+    #comments:after { clear:both; }
+    
+    /* Odd */
+    #offers .offer h3 a {
+        color: #00adc6;
+    }
+    #offers .offer .btn {
+        color: #00adc6;
+        border-color: #0090A8;
+    }
+    #offers .offer h3 a:hover {
+        color: #0090A8;
+    }
+    #offers .offer .btn:hover {
+        background-color: #0090A8;
+    }
+    
+    /* Even */
+    #offers .offer:nth-child(2n) h3 a {
+		color: #005896;
+	}
+	#offers .offer:nth-child(2n) .btn {
+		color: #005896;
+		border-color: #003e79;
+	}
+	#offers .offer:nth-child(2n) h3 a:hover {
+		color: #003e79;
+	}
+	#offers .offer:nth-child(2n) .btn:hover {
+		background-color: #003e79;
+	}
+	
+	#intro h1, #intro p {
+	    color: #3c3c3b !important;
+	}
+	
+	#intro h1, .single article header h1 {
+	    font-family: 'Lato', sans-serif !important;
+	}
+	
+	.btn-action, .btn {
+	    background-color: #005896 !important;
+	    border-color: #005896 !important;
+	    color: #fff !important;
+	}
+	
+	.btn-action:hover, .btn:hover {
+	    
+	    background-color: transparent !important;
+	    
+	    border-color: #005896 !important;
+	    color: #005896 !important;
+	}
+	
+	
+	
+	section.documentation-element {
+	    padding-top: 20px !important;
+	    padding: 20px 0 20px 0 !important;
+	}
+	
+	span.doc-source {
+	    color: #959595;
+	    font-style: italic;
+	}
+	
+	span.doc-source a, span.doc-source a:hover {
+	    color: #959595 !important;
+	    border-bottom: 1px dotted #959595 !important;
+	    font-weight: 400 !important;
+	}
+	
+	#resources.resources-detail .column {
+	    border-top: 4px solid #ef7a12;
+	}
+	
+	.links-page .external {
+	    font-size: 20px;
+	    line-height: 1.5em;
+	}
+	
+	.links-page .title { padding-left: 0; }
+</style>
+
+
+<!-- /Apperta - Style Overrides -->
+
+    
+    <link href="_asset/openodonto.css.override/openodonto.css.override" rel="stylesheet">
+    
+</head>
+<!-- /Apperta - Head -->
+
+  <body class="single">
+  
+<!-- Apperta - Header -->
+<header id="header">
+	<nav class="navbar navbar-default visible-xs">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<i class="fa fa-bars"></i>
+				</button>
+				
+				<a class="navbar-brand" href="index.html"><img src="_asset/odonto_logo_1.png/odonto_logo.png" alt="Apperta" class="nav-logo" /></a>
+			</div>
+		
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				<ul class="nav navbar-nav">
+		        
+                
+                    
+                    <li><a href="index.html">Home</a></li>
+                    
+                
+				</ul>
+								
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+		
+	<div class="top-mast hidden-xs">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-3 hidden-sm">
+					<a href="index.html"><img src="_asset/odonto_logo_1.png/odonto_logo.png" alt="Apperta" class="logo img-responsive" /></a>
+				</div>
+				
+				<div class="col-md-9">
+					
+					<div class="pull-right">
+						
+						<div class="search-nav">
+							<form class="searchform" action="http://openodonto.org/searchQuery" method="GET">
+							    <input type="hidden" name="sid" value="6" />
+								<input type="text" name="q" placeholder="Search" />
+								<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+						
+						<div class="social-nav">
+						    
+							<a href="http://twitter.com/OpenOdonto" target="_blank"><i class="fa fa-twitter"></i></a>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					<div class="visible-sm pull-left;">
+						<a href="index.html"><img src="who-we-are" alt="Apperta" class="logo img-responsive" /></a>
+					</div>
+					
+					<div class="clearfix"></div>
+					
+					<div class="primary-nav sm-center md-right">
+						<ul class="list-inline">
+						    
+                            
+                                
+                                <li><a href="index.html">Home</a></li>
+                                
+                            
+						</ul>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="heading">
+		<div class="container inner">
+		
+		<div class="row">
+			<div class="xs-center sm-left col-sm-11 col-sm-offset-1">
+				<div class="title">Who We Are</div>
+			</div>
+		</div>
+		
+		</div>
+	</div>
+	
+</header>
+<!-- /Apperta - Header -->
+
+  
+  
+  
+  
+  
+  <article class="container">
+	<div class="row">
+		<div class="col-sm-9 col-md-10">
+			<div class="inner">
+				<div class="entry-content">
+				    <p class="lead"></p>
+    
+  
+  
+  
+  
+                    <p>The OpenOdonto CIC is a not-for-profit community interest company, limited by guarantee; set up to ensure that development of OpenOdonto meets the very highest clinical standards.</p>
+
+<p>The Openodonto CIC oversees the development of OpenOdonto. The core activities of the OpenOdonto CIC include:</p>
+
+<ul>
+	<li><b>Organisation of the OpenOdonto community via membership of the CIC</b></li>
+	<li><b>Commissioning OpenOdonto development for the wider community</b></li>
+	<li><b>Managing the OpenOdonto public (GPL) and commercial licenses</b></li>
+	<li><b>Managing and protecting OpenOdonto intellectual property</b></li>
+</ul>
+<p>Undertaking development under the guidance of a not for profit community interest company is an essential part of our collaborative, public service ethos. OpenOdonto cannot, in itself, be sold to a third party ensuring that users have security and can influence development.</p>
+
+<p>One of the most important roles of OpenOdonto CIC will be to commission a principal commercial supplier for OpenOdonto. While it will be possible for OpenOdonto to be downloaded and used without charge, integration in modern NHS community dentistry environments requires technical support and maintenance to ensure compliance with good clinical practice. </p>
+
+<p>The OpenOdonto CIC organises meetings and Hack Days to bring together developers and users to learn and work together to guide the development of the product.<br>
+</p>
+
+<table border="0">
+<tbody>
+	<tr style="border-top: 1pt solid #1C7EBE;">
+		<td id="tdimage"><img width="135" height="182" src="_attachment/becky/becky.png"></td>
+
+		<td id="tdtext">
+<p id="tdTitle"><b>Dr Becky Wassall (Founder / Director)</b><br>
+
+<p>Becky is a practising community dentist. Qualified in 2000, she has worked in NHS hospital, GP and community dentistry and in 2011, she completed a PhD. </p>
+
+<p>Currently, as Clinical Lecturer at Newcastle University, she provides dentistry for adults with complex needs and undertakes research into the organisation and delivery of dental services for older dependent people. Her work seeks to celebrate and promote the humanistic aspects of dentistry while also embracing the opportunities of technology to improve oral health and wellbeing. </p>
+
+<p>Her frustrations with proprietary software available for NHS dentistry, led her to pitch at NHS Hack Day Leeds 2014. Subsequently, she is working to develop a clinical community with the aim to create openness in NHS dental IT.</p>
+
+<p>Twitter: <a href="http://openodonto.org/www.twitter.com/bexmoxon" target="_blank">@bexmoxon</a></p>
+</td>
+	</tr>
+
+	<tr style="border-top: 1pt solid #1C7EBE;">
+		<td id="tdimage"><img width="135" src="_attachment/RichardVJ/RVJprofile_pic.jpg"></td>
+
+		<td id="tdtext">
+<p id="tdTitle"><b> Richard Valle-Jones (Director)</b></p>
+
+<p>Richard is the Clinical Director for Dentistry &nbsp;at Pennine Care NHS Foundation Trust, which provides a wide range of dental care services. &nbsp;He is a Specialist in Special Care Dentistry and also currently studying part time, for a Masters in healthcare leadership through the NHS leadership academy and Universities of Birmingham and Manchester.&nbsp;&nbsp;&nbsp;</p>
+
+<p>Richard has held various educational roles including vocational training, examinerships, teaching and assessing on post graduate programmes at King’s College London. Richard is an external adviser for the Health and Parliamentary Ombudsman. </p>
+</td>
+	</tr>
+
+	<tr style="border-top: 1pt solid #1C7EBE;">
+		<td id="tdimage"><img width="135" src="_attachment/JimHig/jimhigginson.jpg"></td>
+
+		<td id="tdtext">
+<p id="tdTitle"><b>Jim Higginson (Director)</b></p>
+
+<p>Jim is a higher surgical trainee and researching, working in oral and maxillofacial surgery at Queen Elizabeth Hospital, Birmingham and the University of Birmingham. </p>
+
+<p>To work in 'Maxfax', Jim studied for dental and medical degress, so has a good in both camps and has had a chance to see from the hospital specialist's perspective how useful a project like OpenOdonto could be for patients. </p>
+
+<p>As a dental student at Newcastle, he was inspired by Dr Becky Wassall's vision for an open source, dental health record and offered to help out.</p>
+</td>
+	</tr>
+
+	<tr style="border-top: 1pt solid #1C7EBE;">
+		<td id="tdimage"><img width="135" src="_attachment/ProfJimmy/profjimmy.png"></td>
+
+		<td id="tdtext">
+<p id="tdTitle"><b>Professor Jimmy Steele (Independent Chair)</b></p>
+
+<p>Professor Jimmy Steele CBE, is a Professor of Oral Health Service Research at Newcastle University and also an honorary NHS consultant. He has had a significant input to oral health policy and led the “Independent Review of NHS Dentistry in England” for the Government in 2009. He is also a member of the NHS Future Forum which advises on wider health policy. </p>
+</td>
+	</tr>
+</tbody>
+</table>
+<br>
+  
+  
+  
+  
+  
+            </div>
+        </div>
+    </div>
+    <aside class="col-sm-3 col-md-2 sidebar">
+        <ul>
+			<li class="email">
+				<i class="fi-mail"></i>
+				<a href="mailto:info@openodonto.org">info@openodonto.org</a>
+			</li>
+			<li class="twitter">
+				<i class="fa fa-twitter"></i>
+				<a href="http://www.twitter.com/OpenOdonto" target="_blank">@OpenOdonto</a>
+			</li>
+			<!--<li class="address">
+				<i class="fa fa-map-marker"></i>
+				<address>
+				<br/>
+				<br/>
+				<br/>
+				<br>
+				
+				</address>-->
+			</li>
+		</ul>
+    </aside>
+  </div>
+</article>
+
+  
+  
+  
+  
+<!-- Apperta - Footer -->
+<footer>
+		
+		<div id="footer-links">
+			
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-xs-6 col-sm-3">
+						<h3>Learn More</h3>
+						
+						<ul>
+						    
+						    
+							<li><a href="who-we-are">Who We Are</a></li>
+                            
+							<li><a href="guide-to-openodonto">Guide to OpenOdonto</a></li>
+                            
+							<li><a href="openodonto-development">OpenOdonto Development</a></li>
+                            
+						</ul>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<h3></h3>
+						
+						<ul>
+							
+						    
+						</ul>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3">
+						<h3>Partners</h3>
+						
+						<ul>
+							
+						    
+							<li><a href="http://www.apperta.org" target="_blank">Apperta Foundation</a></li>
+                            
+						</ul>
+					</div>
+					
+					
+					<div class="col-xs-6 col-sm-3 connect">
+					    
+						<h3>Connect</h3>
+						
+						<ul>
+						    
+                            
+                            <li><a href="mailto:info@openodonto.org"><i class="fi-mail"></i> Email us</a></li>
+						    
+						    
+						    <li><a href="http://twitter.com/OpenOdonto"><i class="fi-social-twitter"></i> Twitter</a></li>
+						    
+						    
+						    
+						    
+						    <li> 
+						    <i class="fi-mail"></i>
+						    <form action="https://tinyletter.com/openodonto" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openodonto', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+						    <label for="tlemail">Sign up to our mailing list for news and announcements:</label><br>
+						    <i class="fi-mail"></i><input type="text" class="form-text" style="width:140px" name="email" id="tlemail" />
+						    <input type="hidden" value="1" name="embed"/>
+						    <input type="submit" class="btn btn-primary" value="Subscribe" /></form>
+						    </li>
+						    
+						    </ul>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="footer-credits">
+			
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-sm-6">
+						<div class="copyright">Copyright Apperta Foundation</div>
+						<!--<div class="rootsol"></div>-->
+					</div>
+					
+					<div class="col-sm-6 xs-left sm-right">
+						<div id="google_translate_element"></div><script type="text/javascript">
+						function googleTranslateElementInit() {
+						new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+						}
+						</script><script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+	</footer>
+<!-- /Apperta - Footer -->
+
+  <!-- Bower Scripts -->
+	<script src="_asset/jquery/jquery.min.js"></script>
+	<script src="who-we-are"></script>
+	<script src="who-we-are"></script>
+	<script src="who-we-are"></script>
+	<script src="who-we-are"></script>
+	
+	<!-- Other Third Party Scripts -->
+	<script src="who-we-are"></script>
+		
+	<!-- My Scripts -->
+	<script src="who-we-are"></script>
+
+    </body>
+</html>
