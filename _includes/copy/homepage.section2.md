@@ -1,0 +1,3 @@
+## Openness and Digital NHS Dental Care.
+
+Taking a simple view; being open -- open governance and open source -- allows effective collaboration and gives a competitive advantage in terms of the potential for lower costs and higher quality. Openness is now standard in the technology industry and in some parts of government, for example the Cabinet Office. Openness within technology stands alongside the openness found in academic culture of sharing openly what we have found through our research. Take a look at the [Government Digital Services Presentation (pdf)](http://nhshackday.com/assets/docs/DevelopingNHSDigitalServices.pdf)

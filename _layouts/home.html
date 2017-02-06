@@ -11,8 +11,8 @@
       <div class="container inner">
         <div class="row text-row">
           <div class="featured-image col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-1 xs-center sm-left">
-	    <h1>OpenOdonto an electronic patient record for Special Care Dentistry</h1>
-	    <p>OpenOdonto is an electronic patient record application for Special Care Dentistry, which enables clinicians to access information they need about their patients in one place.</p>
+            {% capture strapline %}{% include copy/strapline.md %}{% endcapture %}
+            {{ strapline | markdownify }}
 
 	    <a href="who-we-are" class="btn btn-action btn-lg">Find Out More</a>
 
@@ -30,35 +30,40 @@
 	<h2 class="text-center section-title"><span>Learn More</span></h2>
 	<div class="row">
 
-	  <div class="col-md-4 offer">
-	    <a href="who-we-are"><div class="inner text-center">
-		<div class="icon"><a href="who-we-are">
+	  <div class="col-md-10 col-md-offset-1 offer">
+	    <a href="who-we-are"><div class="inner ">
+		<div class="icon text-center">
+                  <a href="who-we-are">
                     <img src="/assets/icon-odonto-foundation.png" class="img-responsive" />
-                </a></div>
-		<h3><a href="who-we-are">Who We Are</a></h3>
-		<p>The OpenOdonto CIC is a not-for-profit community interest company, limited by guarantee;
-                  set up to ensure that development of OpenOdonto meets the very highest clinical standards.
-                </p>
+                  </a>
+                </div>
+                {% capture section1 %}{% include copy/homepage.section1.md %}{% endcapture %}
+                {{ section1 | markdownify }}
 	      </div>
 	  </div></a>
 
-	  <div class="col-md-4 offer">
-	    <a href="guide-to-openodonto"><div class="inner text-center">
-		<div class="icon"><a href="guide-to-openodonto">
-                    <img src="/assets/icon-odonto-guide.png" class="img-responsive" /></a></div>
-		<h3><a href="guide-to-openodonto">Guide to OpenOdonto</a></h3>
-		<p>OpenOdonto is an ambitious, open project, with the aim to design digital tools to address the
-                  issues current systems present to dentists providing Special Care Dentistry. </p>
+	  <div class="col-md-10 col-md-offset-1 offer">
+	    <a href="guide-to-openodonto"><div class="inner">
+		<div class="icon text-center">
+                  <a href="guide-to-openodonto">
+                    <img src="/assets/icon-odonto-guide.png" class="img-responsive" />
+                  </a>
+                </div>
+                {% capture section2 %}{% include copy/homepage.section2.md %}{% endcapture %}
+                {{ section2 | markdownify }}
 	      </div>
 	  </div></a>
 
-	  <div class="col-md-4 offer">
-	    <a href="openodonto-development"><div class="inner text-center">
-		<div class="icon"><a href="openodonto-development">
-                    <img src="/assets/icon-odonto-development.png" class="img-responsive" /></a></div>
-		<h3><a href="openodonto-development">OpenOdonto Development</a></h3>
-		<p>The OpenOdonto CIC coordinates the development of features that have been requested by users.
-                  The costs of development are coordinated by the CIC.</p>
+	  <div class="col-md-10 col-md-offset-1 offer">
+	    <a href="openodonto-development"><div class="inner">
+		<div class="icon text-center">
+                  <a href="openodonto-development">
+                    <img src="/assets/icon-odonto-development.png" class="img-responsive" />
+                  </a>
+                </div>
+                {% capture section3 %}{% include copy/homepage.section3.md %}{% endcapture %}
+                {{ section3 | markdownify }}
+
 	      </div>
 	  </div></a>
 	</div>
