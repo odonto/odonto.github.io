@@ -1,46 +1,113 @@
-<footer class="site-footer">
+<footer>
+  <div id="footer-links">
+    <div class="container">
+      <div class="row">
+	<div class="col-xs-6 col-sm-3">
+	  <h3>Learn More</h3>
 
-  <div class="wrapper">
+	  <ul>
+	    <li><a href="who-we-are">Who We Are</a></li>
+	    <li><a href="guide-to-openodonto">Guide to OpenOdonto</a></li>
+	    <li><a href="openodonto-development">OpenOdonto Development</a></li>
+	  </ul>
+	</div>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+	<div class="col-xs-6 col-sm-3">
+	  <h3></h3>
+	  <ul>
+	  </ul>
+	</div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+	<div class="col-xs-6 col-sm-3">
+	  <h3>Partners</h3>
+	  <ul>
+	    <li><a href="http://www.apperta.org" target="_blank">Apperta Foundation</a></li>
+	  </ul>
+	</div>
+
+
+	<div class="col-xs-6 col-sm-3 connect">
+
+	  <h3>Connect</h3>
+	  <ul>
+            <li><a href="mailto:info@openodonto.org"><i class="fi-mail"></i> Email us</a></li>
+	    <li><a href="http://twitter.com/OpenOdonto"><i class="fi-social-twitter"></i> Twitter</a></li>
+	    <li>
+	      <i class="fi-mail"></i>
+	      <form action="https://tinyletter.com/openodonto" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openodonto', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+		<label for="tlemail">Sign up to our mailing list for news and announcements:</label><br>
+		<i class="fi-mail"></i><input type="text" class="form-text" style="width:140px" name="email" id="tlemail" />
+		<input type="hidden" value="1" name="embed"/>
+		<input type="submit" class="btn btn-primary" value="Subscribe" /></form>
+	    </li>
+
+	  </ul>
+	</div>
+
       </div>
+    </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+  </div>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+  <div id="footer-credits">
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+    <div class="container">
+      <div class="row">
+
+	<div class="col-sm-6">
+	  <div class="copyright">&copy; Odonto CIC</div>
+	</div>
+
       </div>
     </div>
 
   </div>
 
 </footer>
+
+<!-- <footer class="site-footer"> -->
+
+<!--   <div class="wrapper"> -->
+
+<!--     <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+<!--     <div class="footer-col-wrapper"> -->
+<!--       <div class="footer-col footer-col-1"> -->
+<!--         <ul class="contact-list"> -->
+<!--           <li> -->
+<!--             {% if site.author %} -->
+<!--               {{ site.author | escape }} -->
+<!--             {% else %} -->
+<!--               {{ site.title | escape }} -->
+<!--             {% endif %} -->
+<!--             </li> -->
+<!--             {% if site.email %} -->
+<!--             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
+<!--             {% endif %} -->
+<!--         </ul> -->
+<!--       </div> -->
+
+<!--       <div class="footer-col footer-col-2"> -->
+<!--         <ul class="social-media-list"> -->
+<!--           {% if site.github_username %} -->
+<!--           <li> -->
+<!--             {% include icon-github.html username=site.github_username %} -->
+<!--           </li> -->
+<!--           {% endif %} -->
+
+<!--           {% if site.twitter_username %} -->
+<!--           <li> -->
+<!--             {% include icon-twitter.html username=site.twitter_username %} -->
+<!--           </li> -->
+<!--           {% endif %} -->
+<!--         </ul> -->
+<!--       </div> -->
+
+<!--       <div class="footer-col footer-col-3"> -->
+<!--         <p>{{ site.description | escape }}</p> -->
+<!--       </div> -->
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!-- </footer> -->

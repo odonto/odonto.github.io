@@ -24,38 +24,106 @@
     </div>
 
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
 
+    <section id="offers">
+      <div class="container">
+	<h2 class="text-center section-title"><span>Learn More</span></h2>
+	<div class="row">
 
+	  <div class="col-md-4 offer">
+	    <a href="who-we-are"><div class="inner text-center">
+		<div class="icon"><a href="who-we-are">
+                    <img src="/assets/icon-odonto-foundation.png" class="img-responsive" />
+                </a></div>
+		<h3><a href="who-we-are">Who We Are</a></h3>
+		<p>The OpenOdonto CIC is a not-for-profit community interest company, limited by guarantee;
+                  set up to ensure that development of OpenOdonto meets the very highest clinical standards.
+                </p>
+	      </div>
+	  </div></a>
 
+	  <div class="col-md-4 offer">
+	    <a href="guide-to-openodonto"><div class="inner text-center">
+		<div class="icon"><a href="guide-to-openodonto">
+                    <img src="/assets/icon-odonto-guide.png" class="img-responsive" /></a></div>
+		<h3><a href="guide-to-openodonto">Guide to OpenOdonto</a></h3>
+		<p>OpenOdonto is an ambitious, open project, with the aim to design digital tools to address the
+                  issues current systems present to dentists providing Special Care Dentistry. </p>
+	      </div>
+	  </div></a>
 
-        <div class="home">
-
-          <h1 class="page-heading">Posts</h1>
-
-          {{ content }}
-
-          <ul class="post-list">
-            {% for post in site.posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h2>
-            </li>
-            {% endfor %}
-          </ul>
-
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-        </div>
-
-
-
+	  <div class="col-md-4 offer">
+	    <a href="openodonto-development"><div class="inner text-center">
+		<div class="icon"><a href="openodonto-development">
+                    <img src="/assets/icon-odonto-development.png" class="img-responsive" /></a></div>
+		<h3><a href="openodonto-development">OpenOdonto Development</a></h3>
+		<p>The OpenOdonto CIC coordinates the development of features that have been requested by users.
+                  The costs of development are coordinated by the CIC.</p>
+	      </div>
+	  </div></a>
+	</div>
       </div>
-    </main>
+    </section> <!-- "Offers" (Learn more) -->
+
+    <section id="sponsors">
+      <div class="container text-center">
+	<h2 class="text-center section-title"><span>Our supporters</span></h2>
+	<div class="inner">
+
+	  <img src="/assets/Apperta_LogoCMYK.jpg" alt="Apperta Logo" class="img-responsive" />
+
+	  <img src="/assets/northumbria-logo.png" alt="Northumbria Uni" class="img-responsive" />
+
+	  <img src="/assets/penninelogo.png" alt="Pennine Trust" class="img-responsive" />
+
+	  <img src="/assets/durhamdarlington.png" alt="County Durham and Darlington NHS FT" class="img-responsive" />
+
+	  <img src="/assets/northumbria_logo_nhs.jpg" alt="Northumbria NHS Trust" class="img-responsive" />
+
+	  <img src="/assets/newcastleuni.png" alt="Newcastle Uni" class="img-responsive" />
+
+	  <img src="/assets/imgLogoNUTH.png" alt="Newcastle Hospital" class="img-responsive" />
+
+	</div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- <main class="page-content" aria-label="Content"> -->
+    <!--   <div class="wrapper"> -->
+
+
+
+
+    <!--     <div class="home"> -->
+
+    <!--       <h1 class="page-heading">Posts</h1> -->
+
+    <!--       {{ content }} -->
+
+    <!--       <ul class="post-list"> -->
+    <!--         {% for post in site.posts %} -->
+    <!--         <li> -->
+    <!--           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+    <!--           <h2> -->
+    <!--             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+    <!--           </h2> -->
+    <!--         </li> -->
+    <!--         {% endfor %} -->
+    <!--       </ul> -->
+
+    <!--       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+    <!--     </div> -->
+
+
+
+    <!--   </div> -->
+    <!-- </main> -->
 
     {% include footer.html %}
 
