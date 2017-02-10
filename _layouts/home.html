@@ -10,11 +10,11 @@
     <div id="intro">
       <div class="container inner">
         <div class="row text-row">
-          <div class="featured-image col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-1 xs-center sm-left">
+          <div class="featured-image col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1 xs-center sm-left">
             {% capture strapline %}{% include copy/strapline.md %}{% endcapture %}
             {{ strapline | markdownify }}
 
-	    <a href="who-we-are" class="btn btn-action btn-lg">Find Out More</a>
+	    <!-- <a href="who-we-are" class="btn btn-action btn-lg">Find Out More</a> -->
 
           </div>
           <div class="col-lg-6">
@@ -31,41 +31,56 @@
 	<div class="row">
 
 	  <div class="col-md-10 col-md-offset-1 offer">
-	    <a href="who-we-are"><div class="inner ">
+	    <!-- <a href="who-we-are"> --><div class="inner ">
 		<div class="icon text-center">
-                  <a href="who-we-are">
+                  <!-- <a href="who-we-are"> -->
                     <img src="/assets/icon-odonto-foundation.png" class="img-responsive" />
-                  </a>
+                  <!-- </a> -->
                 </div>
                 {% capture section1 %}{% include copy/homepage.section1.md %}{% endcapture %}
                 {{ section1 | markdownify }}
 	      </div>
-	  </div></a>
+	  </div>
+          <!-- </a> -->
 
 	  <div class="col-md-10 col-md-offset-1 offer">
-	    <a href="guide-to-openodonto"><div class="inner">
+	    <!-- <a href="guide-to-openodonto"> --><div class="inner">
 		<div class="icon text-center">
-                  <a href="guide-to-openodonto">
+                  <!-- <a href="guide-to-openodonto"> -->
                     <img src="/assets/icon-odonto-guide.png" class="img-responsive" />
-                  </a>
+                  <!-- </a> -->
                 </div>
                 {% capture section2 %}{% include copy/homepage.section2.md %}{% endcapture %}
                 {{ section2 | markdownify }}
 	      </div>
-	  </div></a>
+	  </div><!-- </a> -->
 
 	  <div class="col-md-10 col-md-offset-1 offer">
-	    <a href="openodonto-development"><div class="inner">
+	    <!-- <a href="openodonto-development"> --><div class="inner">
 		<div class="icon text-center">
-                  <a href="openodonto-development">
+                  <!-- <a href="openodonto-development"> -->
                     <img src="/assets/icon-odonto-development.png" class="img-responsive" />
-                  </a>
+                  <!-- </a> -->
                 </div>
                 {% capture section3 %}{% include copy/homepage.section3.md %}{% endcapture %}
                 {{ section3 | markdownify }}
 
 	      </div>
+	  </div><!-- </a> -->
+
+	  <div class="col-md-10 col-md-offset-1 offer">
+            <div class="inner">
+		<div class="icon text-center">
+                    <img src="/assets/icon-odonto-development.png" class="img-responsive" />
+                </div>
+                {% capture section4 %}{% include copy/homepage.section4.md %}{% endcapture %}
+                {{ section4 | markdownify }}
+
+	      </div>
 	  </div></a>
+	</div>
+
+
 	</div>
       </div>
     </section> <!-- "Offers" (Learn more) -->
