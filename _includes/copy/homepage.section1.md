@@ -1,4 +1,5 @@
 ## Who are we?
+
 ### We are made by NHS dentists for NHS dentistry.
 
 Founded by NHS dentists, OpenOdonto CIC is a not for profit company. We think that NHS dentistry is something to be proud of. We are here to make better digital tools that help NHS dentists deliver better care.
